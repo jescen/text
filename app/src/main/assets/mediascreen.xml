@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<root releasedate="2017/05/23">
+    <reset>false</reset>
+    <resource>
+        <title>Title Content</title>
+        <scrollingtext>Scroll Text Content</scrollingtext>
+        <picture interval="3">
+            <Item index="0">0.png</Item>
+            <Item index="1">1.png</Item>
+            <Item index="2">2.png</Item>
+            <Item index="3">3.png</Item>
+        </picture>
+        <!--<video>xxx.mp4</video>-->
+    </resource>
+    <parameter>
+        <volume>60</volume>
+        <brightness>80</brightness>
+        <fullscreen>true</fullscreen>
+        <scrollingarea>true</scrollingarea>
+        <titlearea>true</titlearea>
+        <timearea>true</timearea>
+        <standby>
+            <stageone>
+                <time>90</time>
+                <brightness>15</brightness>
+            </stageone>
+            <stagetwo>
+                <time>1200</time>
+                <brightness>0</brightness>
+            </stagetwo>
+        </standby>
+        <time>
+            <format>12</format>
+        </time>
+        <data>
+            <format>mm/dd/yyyy</format>
+        </data>
+    </parameter>
+</root>
